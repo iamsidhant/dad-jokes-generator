@@ -12,7 +12,7 @@ body{
     background-color: rgba(255, 255, 255, 0.3);
     padding: 20px;
     text-align: center;
-    boder-radius: 15px;
+    border-radius: 15px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
     width: 85%;
     color: darkgreen;
@@ -35,12 +35,18 @@ body{
 .btn{
     font-size: 18px;
     font-weight: 700;
-    boder-radius: 5px;
+    border-radius: 5px;
     cursor: pointer;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.3);
-    boder-color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
     width: 300px;
     color: darkgreen;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    transition: all 300ms ease;
 }
